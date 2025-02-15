@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnderCastle</title>
+    <script src="resources/languages/translations.js" defer></script>
+    <script src="resources/scripts/main.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/icons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/headerMenuStyles.css">
+    <link rel="stylesheet" href="resources/css/footerStyles.css">
+</head>
+<body>
+    <header id="header-place">
+        <!-- Aquí se cargará el menú dinámicamente -->
+    </header>
+    <main>
+        <div class="contact-container">
+            <h2 class="contact-title" data-lang-key="contactUs">Contact us!</h2>
+            
+            <form action="https://formspree.io/f/mzzdpzzv" method="POST" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label data-lang-key="name">Name</label>
+                        <input type="text" name="name" placeholder="Your name" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label data-lang-key="emailAddress">Email Address</label>
+                        <input type="email" name="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label data-lang-key="message">Message</label>
+                    <textarea name="message" class="form-control message-area"></textarea>
+                </div>
+
+                <div class="form-group submit-group">
+                    <button type="submit" class="submit-button" data-lang-key="send">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer-place">
+        <!-- Aquí se cargará el menú dinámicamente -->
+    </footer>
+</body>
+</html>

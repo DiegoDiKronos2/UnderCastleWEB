@@ -12,28 +12,41 @@
     <link rel="icon" type="image/png" sizes="32x32" href="resources/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="resources/icons/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="resources/icons/apple-touch-icon.png">
-    <link rel="shortcut icon" href="resources/icons/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/fontStyles.css">
+    <link rel="stylesheet" href="resources/css/globalStyles.css">
+    <link rel="stylesheet" href="resources/css/indexStyles.css">
+    <link rel="stylesheet" href="resources/css/headerMenuStyles.css">
 </head>
 <body>
-    <div class ="headerMenu">
-        <div class="logo" style="font-family: 'UnderCastleFont'">Under Castle</div>
-        <nav class="menu">
-            <a href="#" class="menu-item" data-lang-key="home" onclick="cargarContenido('home')"></a>
-            <a href="#" class="menu-item" data-lang-key="projects" onclick="cargarContenido('projects')"></a>
-            <a href="#" class="menu-item" data-lang-key="aboutUs" onclick="cargarContenido('aboutUs')"></a>
-            <a href="#" class="menu-item" data-lang-key="commissionWork" onclick="cargarContenido('commissionWork')"></a>
-            <a href="#" class="menu-item" data-lang-key="contact" onclick="cargarContenido('contact')"></a>
-            <select id="languageSelector" class="language-selector">
-                <option value="es">🌐 ES</option>
-                <option value="en">🌐 EN</option>
-            </select>
-        </nav>
-    </div>
-    <main id="contenido-principal">
-        <!-- Aquí se cargará el contenido dinámicamente -->
-    </main>
+    <header id="header-place">
+        <!-- Aquí se cargará el menú dinámicamente -->
+    </header>
+        <!-- GAME -->
+        <section>
+            <div class="home-game-background" style="padding-top: 40px;">
+                <img src="resources/images/Home banner.png"></img>
+            </div>
+        </section>
+        <!-- About Undercastle -->
+        <section>
+            <div class="index-content-center-wrapper" style="padding-top: 60px;">
+                <p class="text-description" data-lang-key="gthDescription"></p>
+                <div class="trailer-div" style="padding-top: 20px;">
+                    <iframe width="720" height="400"
+                        src="https://www.youtube.com/embed/iLCR6Wh-Wyc" 
+                        frameborder="0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <a href="https://store.steampowered.com/app/2843980/Gelatina_is_Hungry/" target="_blank">
+                        <img style="height: 75.2px; width: 200px;" src="resources/images/Steam.png" alt="Enlace a Steam">
+                    </a>
+                </div>
+              </div>
+        </section>
 </body>
 </html>

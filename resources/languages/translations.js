@@ -1,18 +1,45 @@
 const translations = {
     es: {
-        home: "Inicio",
+        underCastleName: "Under Castle",
+        home: "GELATINA",
         projects: "Proyectos",
-        aboutUs: "Sobre Nosotros",
+        aboutUs: "ESTUDIO",
         commissionWork: "Trabajos por encargo",
-        contact: "Contacto",
-        underConstruction: "Página en construcción"
+        contact: "CONTACTO",
+        underConstruction: "Página en construcción",
+        message: "Mensaje:",
+        send: "Enviar",
+        gthTitle: "Gelatina Tiene Hambre",
+        gthDescription: "¡Una gelatina alienígena hambrienta siembra el caos en el universo! Controla a Gelatina y avanza hacia delante por los distintos niveles, saltando plataformas, comiendo todo lo que puedas y evitando los obstáculos. Cuanto más comas, más crecerás. ¿Hasta dónde podrá llegar tu hambre?",
+        indexAboutDescription: "Under Castle surge del sueño de crear aventuras como las que vivimos de pequeños. \nQueremos brindar experiencias únicas y especiales a la industria, como todos los videojuegos que nos han ido formando a lo largo de nuestras vidas. \n\nCreemos en el poder de los sueños, los cuentos y la amistad - ¡todo eso es el corazón de nuestras ideas!",
+        // About US
+        aboutTitle: "Sobre nosotros",
+        aboutDescription: "En 2018 empezamos el desarrollo del proyecto EMMA, el cual tuvimos que pausar en 2023 para centrarnos en Gelatina is Hungry: el trabajo de fin de grado para la carrera de Creación Digital, Animación y Videojuegos en A Coruña, España.\nSiempre hemos compartido el mismo sueño: crear mundos e historias juntos, crecer y ver todo lo que creamos cambiar y madurar con nosotros.\n Y, ahora, estamos en el buen camino. Con nuestro primer juego comercial, Gelatina is Hungry,  sacado en Steam en septiembre de 2024, hemos dado el primer gran paso en la industria.\n ¿Quieres conocer mejor al equipo? ¡Aquí estamos!\n",
+        aboutUsCarol_Desc: "Directora del estudio, directora de arte y diseñadora en nuestros proyectos. Graduada en la primera promoción de Creación Digital, Animación y Videojuegos en la Universidad de A Coruña, así como del ciclo superior de Ilustración en la Escuela de Arte Pablo Picasso en A Coruña, España.",
+        aboutUsSara_Desc: "Artista 2D y animadora 3D/2D. Graduada en la primera promoción de Creación Digital, Animación y Videojuegos en la Universidad de A Coruña, así como del ciclo superior de Ilustración en la Escuela de Arte Pablo Picasso en A Coruña, España. ",
+        aboutUsSilvia_Desc: "Artista 2D y animadora 2D. Graduada en el ciclo medio de Actividades Comerciales de la Escuela Nebrija Torre de Hércules y en el ciclo superior de Producción Audiovisual en la Escuela de Imagen y Sonido en A Coruña, España. Actualmente estudiando el último año de la carrera de Creación digital, Animación y Videojuegos en la Universidad de A Coruña.",
+        aboutUsDiego_Desc: "Programador principal. Graduado en el ciclo superior de Desarrollo de Aplicaciones Multiplataforma en la Escuela Teis de Vigo, España. ",
     },
     en: {
-        home: "Home",
+        underCastleName: "Under Castle",
+        home: "GELATINA",
         projects: "Projects",
-        aboutUs: "About Us",
+        aboutUs: "STUDIO",
         commissionWork: "Commission Work",
-        contact: "Contact",
-        underConstruction: "Page under construction"
+        contact: "CONTACT",
+        underConstruction: "Page under construction",
+        name: "Name",
+        message: "Message:",
+        send: "Submit",
+        gthTitle: "Gelatina is Hungry",
+        gthDescription: "A hungry slime from Outer Space wreaks havoc throughout the Universe! Control Gelatina and plow through different levels and platforms, eat everything you can and avoid obstacles. The more you eat, the more you’ll grow. How far will your hunger take you?",
+        indexAboutDescription: "Under Castle stems from the desire to create adventures like those we experienced when we were young. \nWe aim to bring unique and special experiences to this industry, much like the diverse titles that shaped us throughout our lives. \n\nWe believe in the power of dreams, fairytales and friendship - and that’s the core of our ideas!",
+        // About US
+        aboutTitle: "About us",
+        aboutDescription: "In 2018 we began the development of project EMMA, which we paused in 2023 for the development of Gelatina is hungry: the final project for the degree in Digital Creation, Animation and Video Games in A Coruña, Spain. We’ve always shared the dream of being able to create worlds and stories together, to grow and be able to see our own creations change with us. And now, we are currently in our way, as of our first commercial videogame released in September 2024, Gelatina is hungry, we have made our first big step into the industry.\n\nWant to get to know the team? Here we are!",
+        aboutUsCarol_Desc: "Director of the Studio, as well as Art director and Game Designer in our projects. Graduated from the first ever promotion at University of Coruña in Digital Creation, Animation and Videogames as well as from the Illustration Higher Education course at Art School Pablo Picasso in A Coruña, Spain.",
+        aboutUsSara_Desc: "2D Artist and 3D/2D Animator Graduated from first ever promotion at University of Coruña  in Digital Creation, Animation and Videogames as well as from the Illustration Higher Education course at Art School Pablo Picasso in A Coruña, Spain.",
+        aboutUsSilvia_Desc: "2D Artist and 2D Animator. Graduated from the Marketing and Commercial at Nebrija Vocational School as well as from the Audiovisual Production Higher Education course at Imaxe e Son in A Coruña, Spain. Currently a last year student at University of Coruña in Digital Creation, Animation and Videogames.",
+        aboutUsDiego_Desc: "Lead programmer. Graduated from the Multiplatform App Development Higher Education course at Teis High School in Vigo, Spain.",
     }
 };

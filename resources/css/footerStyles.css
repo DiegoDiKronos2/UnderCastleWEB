@@ -1,0 +1,50 @@
+/* Tu contenido principal */
+
+.footer {
+    background-color: white;
+    border-top: 1px solid #e5e7eb;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1rem; 
+}
+
+.brand-name {
+    color: #4b5563;
+    font-weight: 500; 
+    font-size: 1rem; 
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: #4b5563;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #111827;
+}
+
+.copyright {
+    color: #4b5563;
+}
+
+/* SVG icons styles */
+.icon {
+    width: 20px;
+    height: 20px;
+}

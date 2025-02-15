@@ -1,0 +1,83 @@
+.company-description {
+   max-width: 100%;
+   line-height: 1.6;
+   text-align: center;
+   font-size: larger;
+   white-space: pre-wrap;
+}
+
+.contact-mail {
+   padding-top: 30px;
+}
+
+.social-icons-aboutUs {
+   display: flex;
+   padding-top: 10px;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ 
+ .hero-section {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+ }
+ 
+ .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ 
+ .about-text {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ .about-description {
+   text-align: justify;
+   white-space: pre-wrap;
+ }
+ 
+ .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+ }
+ 
+
+ .exp-item {
+   display: flex;
+   gap: 30px;
+   align-items: flex-start;  /* Cambiado de center a flex-start */
+}
+
+.exp-item img {
+   padding-top: 15px;
+   width: 125px;
+   height: 125px;
+   object-fit: cover;
+}
+
+.exp-text {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+
+.exp-text h3 {
+   margin: 0;  /* Elimina el margen predeterminado */
+   padding-top: 10px;  /* Ajusta según necesites para alinear con la imagen */
+}
+
+.exp-text p {
+   text-align: justify;
+   margin-top: 10px;  /* Espacio entre el h3 y el párrafo */
+}
