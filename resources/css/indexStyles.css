@@ -6,6 +6,17 @@
     align-items: center;
 }
 
+.steam-button-div {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  z-index: 500;
+}
+
+.steam-button {
+  display: block;
+}
+
 .trailer-div {
     align-content: center;
 }
