@@ -34,6 +34,13 @@ function cargarFooter(){
 
 //#region Ajuste de idioma
 
+const processTranslation = (text) => {
+    return text
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      .replace(/__(.*?)__/g, '<em>$1</em>');
+  }
+
 // Función para actualizar el contenido según el idioma
 function updateContent(lang) {
     // Actualiza el atributo lang del HTML
@@ -42,7 +49,7 @@ function updateContent(lang) {
     // Actualiza todos los elementos con data-lang-key
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
-        element.textContent = translations[lang][key];
+        element.innerHTML = processTranslation(translations[lang][key]);
     });
 
     // Guarda la preferencia del usuario

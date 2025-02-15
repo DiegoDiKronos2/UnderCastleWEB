@@ -79,5 +79,7 @@
 
 .exp-text p {
    text-align: justify;
+   white-space: pre-wrap;
+   font-size: 14px;
    margin-top: 10px;  /* Espacio entre el h3 y el párrafo */
 }
